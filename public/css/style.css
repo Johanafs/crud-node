@@ -1,0 +1,31 @@
+.container {
+    max-width: 960px;
+}
+
+.btn-guardar{
+    width: 100%;
+    padding:15px;
+    margin-top: 10px;
+    background-color: #20c997;
+    border:0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #ffffff;
+}
+
+.btn-guardar:hover,.btn-guardar:active{
+    color: #ffffff;
+    background-color:#13795b;
+    border-color: #13795b;
+}
+
+.btn-guardar:focus{
+    box-shadow: 0 0 0 3px
+    rgba(1211,82,179,0.25)
+}
+
+.thId{
+    display:none;
+}
